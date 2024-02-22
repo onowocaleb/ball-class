@@ -1,0 +1,44 @@
+.container{
+display: grid;
+grid-template-columns:auto  auto auto auto;
+gap: 10px;
+background-color: aquamarine;
+justify-content: space-evenly;
+padding-right: 1px;
+grid-template-rows: 1fr 1fr 1fr 1fr ;
+}
+
+.grid-item{
+    margin-left: 5rem;
+  min-width: 3rem;
+width: 150px;
+height: 200px;
+margin: 1rem;
+margin-bottom: 8rem;
+margin-right: 6px;
+transition: all 0.8s ease-in;
+border-radius: 7px;
+box-shadow: 10px 10px 25px blue;
+overflow: hidden;
+}
+.grid-item:hover{
+    transform: scale(1.1);
+}
+.box{
+width: 2rem;
+height: 2rem;
+border: 1px solid blue;
+border-radius: 20px;
+float: right;
+background-color: aquamarine;
+position: absolute;
+left: 1px;
+bottom: 8px;
+}
+.p{
+    font-size: larger;
+}
+
+
+
+
